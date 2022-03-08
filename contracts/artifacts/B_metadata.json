@@ -6,8 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_hello",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "getContractName",
+				"name": "getHello",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,7 +26,20 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -47,11 +71,11 @@
 	},
 	"sources": {
 		"contracts/Inheritance.sol": {
-			"keccak256": "0xfbe44d0f8fb17c5cec63978507cc84747d74df6f7058fc390a10cc0cb4c7d6fc",
+			"keccak256": "0x8766b92357ed0a492cfa3bdc91160b53c987fffe92626a1d4e638ed1a324e1fb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://732d685cbe09024b64afb247bf3f1f1ff44c967bbd459ba5da7fe2219db9a6f6",
-				"dweb:/ipfs/QmUhoZQErC5q9JwQ1uZMVrTm6sifrB283YScuRTQW9wpuG"
+				"bzz-raw://2e8dc357c4939bf20f11be0b90787fa11ef18354d34e853c72476bcb057ec1d5",
+				"dweb:/ipfs/QmYAwBSBGakrip2j92xQdHPNJfjBaG1hPJQvbbKGhMz12t"
 			]
 		}
 	},

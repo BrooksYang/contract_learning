@@ -11,6 +11,11 @@
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_hello",
+						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -18,7 +23,33 @@
 			},
 			{
 				"inputs": [],
+				"name": "getHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hello",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -56,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "A"
+			"contracts/Inheritance.sol": "C"
 		},
 		"evmVersion": "london",
 		"libraries": {},
