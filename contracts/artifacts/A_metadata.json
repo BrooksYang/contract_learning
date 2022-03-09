@@ -6,41 +6,53 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -56,7 +68,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "A"
+			"contracts/CallContract.sol": "A"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -70,12 +82,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Inheritance.sol": {
-			"keccak256": "0x8766b92357ed0a492cfa3bdc91160b53c987fffe92626a1d4e638ed1a324e1fb",
+		"contracts/CallContract.sol": {
+			"keccak256": "0xd2d2477f96fcf268d49ef02066faba9c84f858ad2b6bc2a6d59ece29596854ea",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e8dc357c4939bf20f11be0b90787fa11ef18354d34e853c72476bcb057ec1d5",
-				"dweb:/ipfs/QmYAwBSBGakrip2j92xQdHPNJfjBaG1hPJQvbbKGhMz12t"
+				"bzz-raw://c8441003d7abdd1e1a726d521d70077084c06f7f164074a80b97aeb4a2d1fba5",
+				"dweb:/ipfs/QmQB4Xp5BXojStUUvgcXki1FMSzCxM5QRg6gomjGNpMUBS"
 			]
 		}
 	},
