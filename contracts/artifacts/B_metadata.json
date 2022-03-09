@@ -61,6 +61,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract A",
+						"name": "_a",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setDataAndTransferEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -91,11 +109,11 @@
 	},
 	"sources": {
 		"contracts/CallContract.sol": {
-			"keccak256": "0xd2d2477f96fcf268d49ef02066faba9c84f858ad2b6bc2a6d59ece29596854ea",
+			"keccak256": "0x1df02d7300a20f28af51265f7346293fd024b4fd5b9fbabd39cacf7a192bda44",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c8441003d7abdd1e1a726d521d70077084c06f7f164074a80b97aeb4a2d1fba5",
-				"dweb:/ipfs/QmQB4Xp5BXojStUUvgcXki1FMSzCxM5QRg6gomjGNpMUBS"
+				"bzz-raw://df5977cee757ae0e7e095e61e6a6b2ee2de25d6c48e8cb1a4b3f3ac19508ae72",
+				"dweb:/ipfs/QmeMSyJ5Fba6AGpokEZ3V24DPCoU7PSqbDcTGVeN7mkekq"
 			]
 		}
 	},

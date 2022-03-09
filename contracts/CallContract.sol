@@ -10,8 +10,10 @@ contract A {
         return data;
     }
 
-    receive() external payable {
-        
+    function setDataAndReceiveEther(uint _data) public payable returns(uint) {
+        data = _data;
+
+        return data;
     }
 
     function getBalance() public view returns(uint) {
@@ -22,6 +24,10 @@ contract A {
 contract B {
     function setData(A _a, uint _data) public {
         _a.setData(_data);
+    }
+
+    function setDataAndTransferEther(A _a, uint _data) public payable {
+        _a.setDataAndReceiveEther{value: msg.value}(_data);
     }
 
     function proxyEther(A _a) public payable {
